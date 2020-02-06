@@ -28,7 +28,7 @@ public class Author extends Person {
         books.add(book);
     }
 
-    @Override
+//    @Override //is commenting it out the easy fix? seems too easy
     public String sortName() {
         return String.format("%s, %s", lastName, firstName);
     }
